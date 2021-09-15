@@ -1,0 +1,43 @@
+
+.form-C{
+    margin-bottom: 18px;
+}
+.form-C h1{
+    text-align: center;
+}
+.form-C form {
+    display:flex;
+    justify-content: center;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.form-C input{
+outline: none;
+    height: 35px;
+   border: none;
+    flex: 0.9;
+    box-shadow: 1px 1px 1px hsl(206deg 100% 73% / 13%);
+    
+}
+
+
+    
+
+.form-C button{
+   
+   border: none;
+    flex: 0.1;
+    box-shadow: 1px 1px 1px hsl(206deg 100% 73% / 13%);
+    background: hsl(180deg 51% 52%);
+    color: #f6f6f6;
+}
+.form-C button:hover{
+   
+   border: none;
+    flex: 0.1;
+    box-shadow: 1px 1px 1px hsl(206deg 100% 73% / 13%);
+    background: hsl(180deg 51% 72%);
+    color: #f6f6f6;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.todo-C {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(0deg 0% 99%);
+  color: #333;
+  max-width: 350px;
+  margin: auto;
+  height: 35px;
+  box-shadow: 0px 0px 2px 1px #8080800f;
+  margin-bottom: 10px;
+}
+.todo-C li {
+  list-style: none;
+  margin-left: 5px;
+}
+.todo-C div {
+  height: 100%;
+}
+.todo-C span svg path {
+  pointer-events:none;
+}
+
+.todo-C .check {
+  background: hsl(180deg 51% 52%);
+  height: 100%;
+  color: hsl(240deg 8% 93%);
+  width: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+
+}
+.todo-C .activeCheck {
+  background: hsl(107deg 93% 18%);
+  height: 100%;
+  color: hsl(131deg 59% 19%);
+  width: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+
+}
+.todo-C .activeCheck:active {
+  background: hsl(180deg 51% 52%);
+  height: 100%;
+  color: hsl(131deg 59% 19%);
+}
+
+.linethrough {
+  text-decoration: line-through;
+}
+.todo-C .check:active {
+  background: hsl(107deg 93% 18%);
+  height: 100%;
+  color: hsl(131deg 59% 19%);
+}
+
+.todo-C .del {
+  background: hsl(11deg 100% 62%);
+  height: 100%;
+  color: hsl(11deg 80% 38%);
+  width: 30px;
+  padding: 0 5px;
+}
+.todo-C .del:hover {
+  background: hsl(11deg 100% 32%);
+  height: 100%;
+  color: hsl(11deg 80% 78%);
+  width: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+}
