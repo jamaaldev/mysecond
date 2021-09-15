@@ -2,7 +2,6 @@ import "../component/TodoList.css";
 import { HiX } from "react-icons/hi";
 import { HiCheck } from "react-icons/hi";
 import db from ".././utils/firebase";
-import { useEffect } from "react";
 
 const TodoList = (props) => {
   // useEffect(() =>{
